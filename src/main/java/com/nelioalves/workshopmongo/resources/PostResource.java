@@ -19,7 +19,7 @@ public class PostResource {
 	
 	@RequestMapping(value="/{id}",method=RequestMethod.GET)
 	public ResponseEntity<Post> findById(@PathVariable String id){
-		Post obj = service.findById(id);
+		Post obj = service.findById(id); 
 		
 		return ResponseEntity.ok().body(obj);
 	}
