@@ -21,6 +21,7 @@ public class Instantiation implements CommandLineRunner {
 	@Autowired
 	private UserRepository userRepository;
 	
+	
 	@Autowired
 	private PostRepository postRepository;
 	
